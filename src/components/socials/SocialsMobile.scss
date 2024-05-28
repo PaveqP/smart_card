@@ -1,0 +1,32 @@
+.socialsMobile{
+    display: none;
+    padding: 20px;
+
+
+    &__row{
+        display: flex;
+        align-items: center;
+        gap: 31px;
+        flex-wrap: wrap;
+    }
+
+    &-element{
+        cursor: pointer;
+    }
+
+    &-element:hover{
+        scale: 1.15;
+        transition: 0.3s;
+    }
+
+    &-element:not(:hover){
+        scale: 1;
+        transition: 0.3s;
+    }
+}
+
+@media(max-width: 648px){
+    .socialsMobile{
+        display: flex;
+    }
+}

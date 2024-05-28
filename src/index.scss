@@ -1,0 +1,76 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before, *:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 100%;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #292727;
+}
+input, button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align:top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('./font/TTFirsNeue-Regular.eot');
+  src: local('TT Firs Neue Regular'), local('TTFirsNeue-Regular'),
+      url('./font/TTFirsNeue-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./font/TTFirsNeue-Regular.woff2') format('woff2'),
+      url('./font/TTFirsNeue-Regular.woff') format('woff'),
+      url('./font/TTFirsNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('./font/TTFirsNeue-Bold.eot');
+  src: local('TT Firs Neue Bold'), local('TTFirsNeue-Bold'),
+      url('./font/TTFirsNeue-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./font/TTFirsNeue-Bold.woff2') format('woff2'),
+      url('./font/TTFirsNeue-Bold.woff') format('woff'),
+      url('./font/TTFirsNeue-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('./font/TTFirsNeue-Medium.eot');
+  src: local('TT Firs Neue Medium'), local('TTFirsNeue-Medium'),
+      url('./font/TTFirsNeue-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./font/TTFirsNeue-Medium.woff2') format('woff2'),
+      url('./font/TTFirsNeue-Medium.woff') format('woff'),
+      url('./font/TTFirsNeue-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+

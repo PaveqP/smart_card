@@ -1,0 +1,32 @@
+//icons
+export {User} from './icons/User.jsx'
+export {Phone} from './icons/Phone.jsx'
+export {Mobile} from './icons/Mobile.jsx'
+export {Mail} from './icons/Mail.jsx'
+export {Links} from './icons/Links.jsx'
+export {Geo} from './icons/Geo.jsx'
+export {Fax} from './icons/Fax.jsx'
+export {Calendar} from './icons/Calendar.jsx'
+export {RightArrow} from './icons/RightArrow.jsx'
+export {LeftArrow} from './icons/LeftArrow.jsx'
+
+//socials
+export {Dzen} from './socials/Dzen.jsx'
+export {Facebook} from './socials/Facebook.jsx'
+export {Instagram} from './socials/Instagram.jsx'
+export {LinkedIn} from './socials/LinkedIn.jsx'
+export {Ok} from './socials/Ok.jsx'
+export {Telegram} from './socials/Telegram.jsx'
+export {TikTok} from './socials/TikTok.jsx'
+export {Viber} from './socials/Viber.jsx'
+export {VK} from './socials/VK.jsx'
+export {WhatsApp} from './socials/WhatsApp.jsx'
+export {YT} from './socials/YT.jsx'
+export {T} from './socials/T.jsx'
+export {ICQ} from './socials/ICQ.jsx'
+export {Twitter} from './socials/Twitter.jsx'
+export {Skype} from './socials/Skype.jsx'
+
+//actions
+export {CallAction} from './actions/CallAction.jsx'
+export {Save} from './actions/Save.jsx'

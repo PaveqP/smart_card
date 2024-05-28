@@ -1,0 +1,36 @@
+.pages{
+
+    &__window{
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    &__elements{
+        height: 100%;
+        display: flex;
+        gap: 40px;
+        transition: translate;
+        transition-property: transform;
+        transition-duration: 0.7s;
+        transition-timing-function: ease-in-out;
+    }
+}
+
+@media(max-width: 648px){
+    .pages{
+
+        &__window{
+            border-radius: 10px;
+            height: 100%;
+            width: 100%;
+        }
+    
+        &__elements{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}

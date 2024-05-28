@@ -1,0 +1,48 @@
+.header{
+    font-family: 'TT Firs Neue';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: white;
+    padding-bottom: 20px;
+
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.row{
+
+    &__person{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        color: gray;
+    }
+
+    &__company{
+        display: flex;
+        align-items: center; 
+        gap: 10px;
+        cursor: pointer;
+    }
+}
+
+.navElement:hover{
+    scale: 1.05;
+    transition: 0.3s;
+}
+
+.navElement:not(:hover){
+    scale: 1;
+    transition: 0.3s;
+}
+
+@media(max-width: 648px){
+    .header{
+        display: none;
+    }
+}

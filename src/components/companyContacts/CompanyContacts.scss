@@ -1,0 +1,65 @@
+.companyContacts{
+    width: 100%;
+
+    &__list{
+
+    }
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-left: 20px;
+    }
+}
+
+.contact-row{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.info{
+
+    &-name{
+        font-family: 'TT Firs Neue';
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    &-post{
+        color: #455773;
+        font-family: 'TT Firs Neue';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        text-align: left;
+    }
+
+    &-usersList{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 205px;
+        gap: 5px;
+    }
+}
+
+@media(max-width: 648px){
+    .companyContacts{
+
+        &__info{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 16px;
+        }
+    }
+}

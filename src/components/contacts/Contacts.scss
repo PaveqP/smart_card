@@ -1,0 +1,138 @@
+.contacts{
+    width: 100%;
+
+    &__list{
+
+    }
+
+    &-logo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58.09px;
+        text-align: center;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        padding-bottom: 30px;
+    }
+
+    &__info{
+        width: 100%;
+        padding-left: 24px;
+        padding-top: 24px;
+    }
+
+    &-separator{
+        height: 1px;
+        width: 100%;
+        background-color: #060606;
+    }
+
+    &-infoSeparator{
+        display: none;
+    }
+}
+
+.contact-row{
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+
+    a{
+        color: #060606;
+    }
+
+    a:visited{
+        color: #060606;
+    }
+}
+
+.info{
+
+    &-name{
+        font-family: 'TT Firs Neue';
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        max-width: 200px;
+    }
+
+    &__data{
+        margin-top: 22px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    &__main{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    &-post{
+        color: #455773;
+        font-family: 'TT Firs Neue';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        text-align: left;
+    }
+}
+
+@media(max-width: 648px){
+    .contacts{
+        padding-left: 16px;
+        padding-right: 16px;
+    
+        &-logo{
+            display: none;
+        }
+
+        &__list{
+            background-color: #FEFEFE;
+            border-radius: 8px;
+        }
+
+        &__info{
+            width: 100%;
+            padding-left: 0px;
+            padding-top: 20px;
+        }
+
+        &-separator{
+            display: none;
+        }
+
+        &-infoSeparator{
+            display: block;
+            height: 1px;
+            width: 100%;
+            background-color: #060606;
+        }
+    }
+
+    .info{
+
+        &__main{
+            padding: 0px 20px 20px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        &__data{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 26px;
+        }
+    }
+}
