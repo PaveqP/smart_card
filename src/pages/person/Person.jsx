@@ -1,8 +1,8 @@
 import React from 'react'
 import { Contacts } from '../../components'
-import { Socials, SocialsMobile } from '../../components'
-import { jsPDF } from 'jspdf';
+import { Socials } from '../../components'
 import { Save, CallAction } from '../../ui'
+import { saveAs } from 'file-saver';
 import './Person.scss'
 
 function Person({data, mobile}) {
@@ -33,14 +33,7 @@ function Person({data, mobile}) {
     `;
   
     const blob = new Blob([vCardContent], { type: 'text/vcard' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'contact.vcf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
+    saveAs(blob, 'contact.vcf');
   }
 
   return (
