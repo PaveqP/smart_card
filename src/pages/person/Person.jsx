@@ -62,7 +62,7 @@ function Person({data, mobile}) {
             <div className="actions__buttons">
               <button className="buttons-save actionButton" onClick={() => saveVCard(data)}>
                 <Save/>
-                <a href="">СОХРАНИТЬ ВИЗИТКУ</a>
+                СОХРАНИТЬ ВИЗИТКУ
               </button>
               <button className="buttons-call actionButton">
                 <CallAction/>
