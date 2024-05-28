@@ -1,10 +1,7 @@
 {
   "files": {
-    "main.css": "/smart_card/static/css/main.fa1c821b.css",
-    "main.js": "/smart_card/static/js/main.810de09d.js",
-    "static/js/239.82ff7304.chunk.js": "/smart_card/static/js/239.82ff7304.chunk.js",
-    "static/js/213.60114db1.chunk.js": "/smart_card/static/js/213.60114db1.chunk.js",
-    "static/js/732.f92b5d19.chunk.js": "/smart_card/static/js/732.f92b5d19.chunk.js",
+    "main.css": "/smart_card/static/css/main.cdbec548.css",
+    "main.js": "/smart_card/static/js/main.70449bd9.js",
     "static/media/TTFirsNeue-Medium.eot": "/smart_card/static/media/TTFirsNeue-Medium.f435290c1f2c25004a5c.eot",
     "static/media/TTFirsNeue-Medium.ttf": "/smart_card/static/media/TTFirsNeue-Medium.c40de9018ca2adfa67af.ttf",
     "static/media/TTFirsNeue-Bold.eot": "/smart_card/static/media/TTFirsNeue-Bold.f2e8cb5a72f24dfa5511.eot",
@@ -18,14 +15,11 @@
     "static/media/TTFirsNeue-Bold.woff2": "/smart_card/static/media/TTFirsNeue-Bold.b6b7358cb98d63027a2a.woff2",
     "static/media/TTFirsNeue-Regular.woff2": "/smart_card/static/media/TTFirsNeue-Regular.aa35bc5e7e663660cc20.woff2",
     "index.html": "/smart_card/index.html",
-    "main.fa1c821b.css.map": "/smart_card/static/css/main.fa1c821b.css.map",
-    "main.810de09d.js.map": "/smart_card/static/js/main.810de09d.js.map",
-    "239.82ff7304.chunk.js.map": "/smart_card/static/js/239.82ff7304.chunk.js.map",
-    "213.60114db1.chunk.js.map": "/smart_card/static/js/213.60114db1.chunk.js.map",
-    "732.f92b5d19.chunk.js.map": "/smart_card/static/js/732.f92b5d19.chunk.js.map"
+    "main.cdbec548.css.map": "/smart_card/static/css/main.cdbec548.css.map",
+    "main.70449bd9.js.map": "/smart_card/static/js/main.70449bd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa1c821b.css",
-    "static/js/main.810de09d.js"
+    "static/css/main.cdbec548.css",
+    "static/js/main.70449bd9.js"
   ]
 }
