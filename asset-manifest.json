@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/smart_card/static/css/main.e52ce4d2.css",
+    "main.js": "/smart_card/static/js/main.4617c72f.js",
+    "static/media/TTFirsNeue-Medium.eot": "/smart_card/static/media/TTFirsNeue-Medium.f435290c1f2c25004a5c.eot",
+    "static/media/TTFirsNeue-Medium.ttf": "/smart_card/static/media/TTFirsNeue-Medium.c40de9018ca2adfa67af.ttf",
+    "static/media/TTFirsNeue-Bold.eot": "/smart_card/static/media/TTFirsNeue-Bold.f2e8cb5a72f24dfa5511.eot",
+    "static/media/TTFirsNeue-Regular.eot": "/smart_card/static/media/TTFirsNeue-Regular.0b723029bb7a4ad1dc6c.eot",
+    "static/media/TTFirsNeue-Bold.ttf": "/smart_card/static/media/TTFirsNeue-Bold.0e5c24bc12f0df7821a9.ttf",
+    "static/media/TTFirsNeue-Regular.ttf": "/smart_card/static/media/TTFirsNeue-Regular.7925664aab1bc42bbc9b.ttf",
+    "static/media/TTFirsNeue-Medium.woff": "/smart_card/static/media/TTFirsNeue-Medium.4b81df34b1270e2db60e.woff",
+    "static/media/TTFirsNeue-Bold.woff": "/smart_card/static/media/TTFirsNeue-Bold.5898e2d9776b42b3ff85.woff",
+    "static/media/TTFirsNeue-Regular.woff": "/smart_card/static/media/TTFirsNeue-Regular.6f44931576176c0be470.woff",
+    "static/media/TTFirsNeue-Medium.woff2": "/smart_card/static/media/TTFirsNeue-Medium.9ca345d52acc7e74dbf8.woff2",
+    "static/media/TTFirsNeue-Bold.woff2": "/smart_card/static/media/TTFirsNeue-Bold.b6b7358cb98d63027a2a.woff2",
+    "static/media/TTFirsNeue-Regular.woff2": "/smart_card/static/media/TTFirsNeue-Regular.aa35bc5e7e663660cc20.woff2",
+    "index.html": "/smart_card/index.html",
+    "main.e52ce4d2.css.map": "/smart_card/static/css/main.e52ce4d2.css.map",
+    "main.4617c72f.js.map": "/smart_card/static/js/main.4617c72f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e52ce4d2.css",
+    "static/js/main.4617c72f.js"
+  ]
+}
